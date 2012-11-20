@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Canvas Demo</title>
+	<meta name="Keywords" content="canvas" />
+	<meta name="Description" content="This is HTML5 Canvas demo." />
+	<script type="text/JavaScript">
+		window.onload = function() {
+			var canvas = document.getElementById('mycanvas');
+			var context = canvas.getContext('2d');
+			//Add all drawing methods and properties here
+			context.fillStyle = "rgba(0, 155, 255, .4)";
+			context.strokeStyle = "#00FF00";
+			context.strokeRect(60,17,185,116);
+			context.fillRect(20,20,160,110);
+			context.clearRect(50,50,120,70);
+			
+			
+			var centerX = canvas.width / 2 + 20;
+      		var centerY = canvas.height / 2;
+      		var radius = 30;
+
+      		context.beginPath();
+      		context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+      		context.fillStyle = 'rgba(0, 0, 235, .65)';
+     		context.fill();
+      		context.lineWidth = 10;
+      		context.strokeStyle = 'darksalmon';
+      		context.stroke();
+		}
+	</script>
+	<style type="text/css">
+		canvas { width:600px; height:300px; border:2px dotted black; position:relative; left:20%; top:30%}
+	</style>
+</head>
+<body>
+	<h2 align = "center">This is my HTML5 Canvas.</h2>
+	<canvas id="mycanvas" >Support Canvas tag</canvas>
+	<h4 align = "center"><a href= "/index.html">Go to Homepage</a></h4>
+</body>
+</html>
