@@ -17,16 +17,9 @@ chuzhichao.com currently targets the following function:
 Contributing to chuzhichao.com
 -------------------------
 
-Check out the Prototype source with 
+Check out the chuzhichao.com source with 
 
-    $ git clone git://github.com/sstephenson/prototype.git
-    $ cd prototype
-    $ git submodule init
-    $ git submodule update vendor/sprockets vendor/pdoc vendor/unittest_js
-
-Find out how to contribute: <http://prototypejs.org/contribute>.
-
+    $ git clone git://github.com/chuzhichao/chuzhichaocom.git
+   
 Documentation
 -------------
-
-Please see the online Prototype API: <http://api.prototypejs.org>.
