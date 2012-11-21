@@ -1,0 +1,23 @@
+#index { height: 650px; font-family: Helvetica, Arial, sans-serif;
+	background: -moz-linear-gradient(center top, #3B8DBD 0%, #73B0D3 25%, #FFFFFF 60%, #FFFFFF 80%, #3B8DBD 100%);
+	background: -webkit-gradient(linear, center top, center bottom, from(#3B8DBD), color-stop(60%,#FFFFFF), color-stop(80%,#FFFFFF), to(#3B8DBD));
+}
+#index p { text-align: center;}
+#index #main { width:600px;position:absolute;left:50%;top:30px; margin-left:-300px;
+}
+
+#logo { border-style: groove; border-width: 8px;
+	-moz-box-shadow:10px 10px 10px #888;
+	-webkit-box-shadow:10px 10px 10px #888;
+}
+
+#demo_section { border:2px solid; border-color: #A7A7A7;
+	border-radius:15px;
+	-moz-border-radius:15px;
+}
+
+h1 {text-shadow: white 3px 3px 3px; text-align: center;}
+h2 {text-shadow: white 2px 2px 2px; text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center;}
+h5 {text-align: center;}
