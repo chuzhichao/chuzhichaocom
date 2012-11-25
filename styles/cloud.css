@@ -3,7 +3,7 @@
 #content { position: relative;  height: 600px;}
 
 body {
-	/*To hide the horizontal scroller appearing during the animation*/
+	/*Hide the horizontal scroll bar*/
 	overflow: hidden;
 }
 
@@ -15,7 +15,7 @@ body {
 	background: -moz-linear-gradient(top, #c9dbe9 0%, #C1C8CB 100%);
 }
 
-/*Time to finalise the cloud shape*/
+/*Build the cloud shape*/
 .cloud {
 	width: 200px; height: 60px;
 	background: #fff;
@@ -48,7 +48,6 @@ body {
 	top: -55px; left: auto; right: 15px;
 }
 
-/*Time to animate*/
 .x1 {
 	-webkit-animation: moveclouds 15s linear infinite;
 	-moz-animation: moveclouds 15s linear infinite;
