@@ -92,3 +92,12 @@
 .subtitle { font-weight: bold; margin-bottom: 18px; text-align: center; }
 .title { font-size: 30px; text-shadow: white 2px 2px 2px; color:#000;}
 .subtitle { font-size: 20px; text-shadow: white 1px 1px 1px; color: #555; }
+
+@media screen and (max-device-width: 480px) {
+	#content { min-width: 480px; height: 4500px;} 
+	#gallery { width: 675px; }
+	#gallery a { float: top; margin-bottom: 25px; -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 6px 45px 3px rgba(0, 0, 0, 0.5); }
+	#gallery a img { width: 675px; height: 450px; }
+	#gallery a:nth-child(3n+2) { margin: 0 0 25px 0; }
+	.description { font-size: 39px; padding: 15px 21px; }
+ }
